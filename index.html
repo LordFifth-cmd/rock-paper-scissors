@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html land="en">
+
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="./styles.css">
+    <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Irish+Grover" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap" rel="stylesheet">
+
+    <title>Rock Paper Scissors</title>
+</head>
+
+<body>
+    <div id="heading">
+        <p id="welcome">WELCOME TO</p>
+        <p id="mainhead">ROCK PAPER SCISSORS</p>
+    </div>
+    <div id="container">
+        <div id="subcontainer">
+            <img class="thepic left" src="./img/rock-right-hand-removebg-preview.png" alt="rock fist">
+            <div id="subhead">
+                <div id="choose">CHOOSE</div>
+                <div id="sub">First to 5</div>
+            </div>
+            <img class="thepic right" src="./img/rock-left-hand-removebg-preview.png" alt="rock fist">
+        </div>
+        <!-- Load up the three images -->
+        <div class="images">
+            <img id="basescissors" src="./img/scissors-right-hand-removebg-preview.png"
+                alt="image of a hand making the scissors sign for the game">
+            <img id="baserock" src="./img/rock-left-hand-removebg-preview.png"
+                alt="image of hand making the rock sign for the game">
+            <img id="basepaper" src="./img/paper-left-hand-removebg-preview.png"
+                alt="image of a hand making the paper sign for the game">
+        </div>
+    </div>
+    <div id="footer">
+        <p id="roundheading">ROUND 1 </p>
+        <div id="tracker">
+            <div class="score">
+                <div class="person">YOU</div>
+                <div id="personscore">0</div>
+            </div>
+            <div class="score">
+                <div class="draw">DRAW</div>
+                <div id="drawscore">0</div>
+            </div>
+            <!-- <p id="roundtracker">1</p> -->
+            <div class="score">
+                <div class="person">AI</div>
+                <div id="aiscore">0</div>
+            </div>
+        </div>
+    </div>
+    <script src="./javascript.js"></script>
+</body>
+
+</html>

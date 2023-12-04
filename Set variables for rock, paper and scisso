@@ -1,0 +1,14 @@
+Set variables for rock, paper and scissors
+Get random number between 0 and 2 inclusive
+Create if statements that check the random number generated and returns rock, paper or scissors for 0, 1 or 2
+
+
+Workflow:
+
+User selects a choice and that triggers a game play
+
+for game play  
+    computer runs a round
+    a checker checks choice for winner
+    based on winner, a point is added (aiscore or userscore gets updated)
+    round
